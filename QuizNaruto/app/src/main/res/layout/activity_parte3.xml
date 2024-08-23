@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/naruto23"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Parte3Activity">
+
+    <TextView
+        android:id="@+id/textPergunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="129dp"
+        android:layout_marginBottom="181dp"
+        android:text="Quantos Filhos Naruto teve?"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:gravity="top"
+       />
+
+
+    <Button
+        android:id="@+id/buttonA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10 Filhos"
+        />
+
+    <Button
+        android:id="@+id/buttonB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 Filhos"
+        />
+
+    <Button
+        android:id="@+id/buttonC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="4 Filhos" />
+
+</LinearLayout>
